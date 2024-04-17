@@ -1,0 +1,967 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Seruni - Template kit for jewelry store",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Seruni V1 - Header",
+            "screenshot": "screenshots\/seruni-v1-header.jpg",
+            "source": "templates\/seruni-v1-header.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/?elementor_library=seruni-v1-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Seruni V1 - Footer",
+            "screenshot": "screenshots\/seruni-v1-footer.jpg",
+            "source": "templates\/seruni-v1-footer.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/?elementor_library=seruni-v1-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Seruni V1 - Single Post",
+            "screenshot": "screenshots\/seruni-v1-single-post.jpg",
+            "source": "templates\/seruni-v1-single-post.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/?elementor_library=seruni-v1-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Seruni V1 - Products",
+            "screenshot": "screenshots\/seruni-v1-products.jpg",
+            "source": "templates\/seruni-v1-products.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/?elementor_library=seruni-v1-products",
+            "type": "product-archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product-archive",
+                "elementor_pro_conditions": [
+                    "include\/product_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product Archive\" template for Elementor Pro.",
+                    "This template will display on: All Product Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Seruni V1 - 404",
+            "screenshot": "screenshots\/seruni-v1-404.jpg",
+            "source": "templates\/seruni-v1-404.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/?elementor_library=seruni-v1-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Seruni - Single product",
+            "screenshot": "screenshots\/seruni-single-product.jpg",
+            "source": "templates\/seruni-single-product.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/?elementor_library=seruni-single-product",
+            "type": "product",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product",
+                "elementor_pro_conditions": [
+                    "include\/product"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product\" template for Elementor Pro.",
+                    "This template will display on: Products."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "My Account",
+            "screenshot": "screenshots\/my-account.jpg",
+            "source": "templates\/my-account.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/template-kit\/my-account\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Login page",
+            "screenshot": "screenshots\/login-page.jpg",
+            "source": "templates\/login-page.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/template-kit\/login-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "My Cart",
+            "screenshot": "screenshots\/my-cart.jpg",
+            "source": "templates\/my-cart.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/template-kit\/my-cart\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Checkout",
+            "screenshot": "screenshots\/checkout.jpg",
+            "source": "templates\/checkout.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/template-kit\/checkout\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Seruni V1 - Archive",
+            "screenshot": "screenshots\/seruni-v1-archive.jpg",
+            "source": "templates\/seruni-v1-archive.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/seruni\/?elementor_library=seruni-v1-archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.7.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.7.0",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Envato Elements",
+            "version": "2.0.11",
+            "file": "envato-elements\/envato-elements.php",
+            "author": "Envato"
+        },
+        {
+            "name": "WooCommerce",
+            "version": "6.9.2",
+            "file": "woocommerce\/woocommerce.php",
+            "author": "Automattic"
+        }
+    ],
+    "images": [
+        {
+            "filename": "appealing-caucasian-girl-with-plant-in-hair-posing-in-studio-close-up-portrait-of-cute-european-wo.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/appealing-caucasian-girl-with-plant-in-hair-posing-in-studio-close-up-portrait-of-cute-european-wo-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 88232,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-U4FLMUP"
+        },
+        {
+            "filename": "young-nude-woman-with-closed-eyes-shiny-makeup-golden-rings-and-earrings-in-turban-touching-neck.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/young-nude-woman-with-closed-eyes-shiny-makeup-golden-rings-and-earrings-in-turban-touching-neck-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 144059,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-26HWNGW"
+        },
+        {
+            "filename": "portrait-of-graceful-woman-with-freckles-gently-touching-neck-dark-haired-girl-with-hairpins-and.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/portrait-of-graceful-woman-with-freckles-gently-touching-neck-dark-haired-girl-with-hairpins-and-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 97019,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XK9T9XH"
+        },
+        {
+            "filename": "girl-in-light-blouse-poses-on-beige-background-woman-touching-her-pearl-beads.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/girl-in-light-blouse-poses-on-beige-background-woman-touching-her-pearl-beads-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 76053,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AQAQDVA"
+        },
+        {
+            "filename": "focused-on-a-process-portrait-of-young-female-jeweler-focused-on-creating-a-silver-ring-at-her.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/focused-on-a-process-portrait-of-young-female-jeweler-focused-on-creating-a-silver-ring-at-her-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 113439,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QUB69DW"
+        },
+        {
+            "filename": "Mask-group.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/07\/Mask-group.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 22383,
+            "dimensions": [
+                398,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Mask-group-3.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/07\/Mask-group-3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 26146,
+            "dimensions": [
+                530,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Mask-group-2.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/07\/Mask-group-2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 20513,
+            "dimensions": [
+                284,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Mask-group-1.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/07\/Mask-group-1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 28770,
+            "dimensions": [
+                391,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "womens-jewelry.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/womens-jewelry-800x601.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/seruni-v1-archive.json",
+                    "name": "Seruni V1 - Archive"
+                }
+            ],
+            "filesize": 125212,
+            "dimensions": [
+                1280,
+                961
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-4VBQQ8W"
+        },
+        {
+            "filename": "bg_img.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/07\/bg_img.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/seruni-v1-single-post.json",
+                    "name": "Seruni V1 - Single Post"
+                },
+                {
+                    "source": "templates\/seruni-v1-products.json",
+                    "name": "Seruni V1 - Products"
+                },
+                {
+                    "source": "templates\/my-account.json",
+                    "name": "My Account"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/my-cart.json",
+                    "name": "My Cart"
+                },
+                {
+                    "source": "templates\/checkout.json",
+                    "name": "Checkout"
+                }
+            ],
+            "filesize": 755,
+            "dimensions": [
+                152,
+                152
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "luxury-gold-jewelry-on-set-holders-and-in-jewelry-box-on-light-dressing-table-and-wardrobe-shelves-2.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/luxury-gold-jewelry-on-set-holders-and-in-jewelry-box-on-light-dressing-table-and-wardrobe-shelves-2-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 75079,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-86F3GYT"
+        },
+        {
+            "filename": "beauty-portrait-of-african-american-girl-with-afro-hair.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/beauty-portrait-of-african-american-girl-with-afro-hair-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 84703,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZP5V4GL"
+        },
+        {
+            "filename": "img__0006_Layer-2.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/img__0006_Layer-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 50306,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-cheerful-european-female-with-satisfie-W73EUUE"
+        },
+        {
+            "filename": "img__0001_Layer-7.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/img__0001_Layer-7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 41345,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/horizontal-shot-of-pleasant-looking-ginger-young-e-F9MBGAR"
+        },
+        {
+            "filename": "img__0003_Layer-5.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/img__0003_Layer-5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 47988,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/joyful-freckled-teenager-wears-round-transparent-g-EPRUCGN"
+        },
+        {
+            "filename": "Logo_seruni.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/06\/Logo_seruni.png",
+            "templates": [
+                {
+                    "source": "templates\/seruni-v1-header.json",
+                    "name": "Seruni V1 - Header"
+                },
+                {
+                    "source": "templates\/seruni-v1-footer.json",
+                    "name": "Seruni V1 - Footer"
+                }
+            ],
+            "filesize": 13189,
+            "dimensions": [
+                361,
+                121
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "happy-girl-in-luxury-earrings-smiling-and-looking-at-camera.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/happy-girl-in-luxury-earrings-smiling-and-looking-at-camera-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/seruni-v1-products.json",
+                    "name": "Seruni V1 - Products"
+                }
+            ],
+            "filesize": 92518,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LTVUYFF"
+        },
+        {
+            "filename": "luxury-gold-jewelry-on-set-holders-and-in-jewelry-box-on-light-dressing-table-and-wardrobe-shelves-3.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/luxury-gold-jewelry-on-set-holders-and-in-jewelry-box-on-light-dressing-table-and-wardrobe-shelves-3-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/seruni-v1-products.json",
+                    "name": "Seruni V1 - Products"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 89377,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-77UAVAU"
+        },
+        {
+            "filename": "14-1.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/07\/14-1.png",
+            "templates": [
+                {
+                    "source": "templates\/seruni-v1-404.json",
+                    "name": "Seruni V1 - 404"
+                }
+            ],
+            "filesize": 11115,
+            "dimensions": [
+                159,
+                92
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "gold-jewelry-rings.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/gold-jewelry-rings-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 127001,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-5Z6ALP2"
+        },
+        {
+            "filename": "img__0002_Layer-6.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/img__0002_Layer-6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 58477,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/carefree-attractive-girl-with-pleasant-look-enjoys-4GXJZTE"
+        },
+        {
+            "filename": "img__0004_Layer-4.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/img__0004_Layer-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 40613,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waist-up-shot-of-handsome-self-confident-cheerful--BUTM9PX"
+        },
+        {
+            "filename": "luxury-gold-jewelry-on-set-holders-and-in-jewelry-box-on-light-dressing-table-and-wardrobe-shelves.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/luxury-gold-jewelry-on-set-holders-and-in-jewelry-box-on-light-dressing-table-and-wardrobe-shelves-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 94603,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-2RY3JXW"
+        },
+        {
+            "filename": "luxury-gold-jewelry-on-set-holders-and-in-jewelry-box-on-light-dressing-table-and-wardrobe-shelves-1.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/luxury-gold-jewelry-on-set-holders-and-in-jewelry-box-on-light-dressing-table-and-wardrobe-shelves-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 60903,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-J8Q8FWL"
+        },
+        {
+            "filename": "flatlay-jewelry.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/flatlay-jewelry-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/login-page.json",
+                    "name": "Login page"
+                }
+            ],
+            "filesize": 114972,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-XW2EU6U"
+        },
+        {
+            "filename": "woman-in-a-light-pink-tank-top.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/woman-in-a-light-pink-tank-top-800x1422.jpg",
+            "templates": [
+                {
+                    "source": "templates\/login-page.json",
+                    "name": "Login page"
+                }
+            ],
+            "filesize": 305351,
+            "dimensions": [
+                1125,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SJXKLBK"
+        },
+        {
+            "filename": "business-for-a-couple-portrait-of-smiling-couple-in-aprons-standing-at-their-jewelry-workshop-and.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/business-for-a-couple-portrait-of-smiling-couple-in-aprons-standing-at-their-jewelry-workshop-and-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 128285,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-9JC627A"
+        },
+        {
+            "filename": "img__0000_Layer-8.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/seruni\/wp-content\/uploads\/sites\/7\/2022\/09\/img__0000_Layer-8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 33914,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/optimistic-positive-handsome-bearded-man-FXXXGY4"
+        }
+    ]
+}
